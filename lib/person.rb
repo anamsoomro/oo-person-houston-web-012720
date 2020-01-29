@@ -5,6 +5,7 @@ class Person
     attr_reader :name, :happiness, :hygiene
 
     attr_accessor :bank_account
+    
 
     def happiness=(happiness)
         # you cant do self.happiness becuase its just referring to itself in a big loop
